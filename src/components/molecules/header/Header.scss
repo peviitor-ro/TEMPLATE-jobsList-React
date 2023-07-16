@@ -1,0 +1,12 @@
+@import "../../../scss/variables";
+
+.header {
+  display: flex;
+  height: 8rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+}

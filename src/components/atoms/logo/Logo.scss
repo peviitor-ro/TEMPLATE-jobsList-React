@@ -1,0 +1,10 @@
+@import '../../../scss/variables';
+
+.logo {
+  color: $black;
+  font-size: 3rem;
+  font-weight: $font-weight-bold;
+  font-family: $roboto;
+  font-style: normal;
+  line-height: normal;
+}
