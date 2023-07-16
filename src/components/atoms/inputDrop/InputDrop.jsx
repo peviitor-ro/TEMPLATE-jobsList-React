@@ -8,8 +8,7 @@ const InputDrop = (props) => {
   return (
     <div className="dropdown">
       <input type={props.text} placeholder={props.placeholder} />
-      <button type="button">
-        <SvgIcon>
+        <SvgIcon className="drop-arrow">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -22,7 +21,6 @@ const InputDrop = (props) => {
             />
           </svg>
         </SvgIcon>
-      </button>
     </div>
   );
 };

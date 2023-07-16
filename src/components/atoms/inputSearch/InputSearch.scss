@@ -1,31 +1,29 @@
-@import '../../../scss/variables';
+@import "../../../scss/variables";
 
 .search-container {
   display: flex;
+  padding: 1.2rem 1.6rem;
+  justify-content: space-between;
   align-items: center;
-  padding: 12px 174px 12px 10px;
-  gap: 1rem;
   align-self: stretch;
-  border-radius: 8px;
-  border: 1px solid $primary;
+  position: relative;
 
   input {
-    flex: 1;
     font-size: 1.8rem;
     color: $gray;
+    padding-block: 1rem;
+    padding-inline-start: 2rem;
     font-style: normal;
     font-weight: $font-weight-regular;
     font-family: $roboto;
     line-height: 150%;
+    border-radius: 8px;
+    border: 1px solid $primary;
   }
 
-  button {
-    background-color: #f2f2f2;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 8px;
-    border-radius: 4px;
+  .search-icon {
+    position: absolute;
+    left: 2rem;
+    z-index: 1000;
   }
-
 }

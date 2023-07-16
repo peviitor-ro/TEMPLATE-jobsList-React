@@ -1,13 +1,13 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React from "react";
-import './Tags.scss';
+import "./Tags.scss";
 import SvgIcon from "@mui/material/SvgIcon";
 
 const Tags = (props) => {
   return (
-    <div className="tags">
-      <SvgIcon>
+    <div className="options">
+      <SvgIcon className="tag-icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
@@ -23,8 +23,8 @@ const Tags = (props) => {
             fill="#484848"
           />
         </svg>
-        <p>{ props.text }</p>
       </SvgIcon>
+      <p>{props.text}</p>
     </div>
   );
 };

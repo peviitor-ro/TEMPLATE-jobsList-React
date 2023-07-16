@@ -1,6 +1,14 @@
 @import "../../../scss/variables";
 
-.tags {
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  .tag-icon {
+    margin-inline-start: 1rem;
+  }
+
   p {
     color: $secondary;
     font-family: $roboto;
@@ -8,5 +16,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+    margin-inline-start: .5rem;
   }
 }

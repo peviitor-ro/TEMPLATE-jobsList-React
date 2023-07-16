@@ -3,6 +3,9 @@
 .job-search_card {
   display: flex;
   width: 95%;
+  max-width: 35rem;
+  margin-inline: auto;
+  margin-block: 2.4rem;
   padding: 2.4rem 1.6rem;
   flex-direction: column;
   justify-content: center;
@@ -13,6 +16,8 @@
 
   .job-section_title {
     color: $primary;
+    text-align: center;
+    margin-inline: auto;
     font-family: $inter;
     font-size: 2.6rem;
     font-style: normal;
@@ -24,15 +29,18 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-inline: auto;
 
     button {
       display: flex;
+      max-width: 100%;
       padding: 1.2rem 3.2rem;
       justify-content: center;
       align-items: center;
-      gap: 1rem;
+      width: 100%;
       align-self: stretch;
       border-radius: 8px;
+      border: 0;
       background: $accent;
       color: $white;
     }
@@ -43,5 +51,6 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
+    margin-inline: auto;
   }
 }

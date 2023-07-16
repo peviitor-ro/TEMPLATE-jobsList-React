@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import "./jobCard.scss";
+import "./JobCard.scss";
 import InputSearch from "../../atoms/inputSearch/InputSearch";
 import InputDrop from "../../atoms/inputDrop/InputDrop";
 import Tags from "../../atoms/tags/Tags";
@@ -16,12 +16,12 @@ const JobCard = () => {
         <InputDrop type="text" placeholder="Tip job" />
         <button type="button">Cauta job</button>
       </form>
-      <div>
-        <div>
+      <div className="tags">
+        <div className="options">
           <Tags text="Norma intreaga" />
           <Tags text="Oradea" />
         </div>
-        <div>
+        <div className="options">
           <Tags text="Norma intreaga" />
           <Tags text="Oradea" />
           <Tags text="Oradea" />
