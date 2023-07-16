@@ -1,0 +1,12 @@
+@import "../../../scss/variables";
+
+.tags {
+  p {
+    color: $secondary;
+    font-family: $roboto;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+  }
+}

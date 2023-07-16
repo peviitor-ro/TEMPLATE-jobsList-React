@@ -1,0 +1,31 @@
+@import '../../../scss/variables';
+
+.search-container {
+  display: flex;
+  align-items: center;
+  padding: 12px 174px 12px 10px;
+  gap: 1rem;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid $primary;
+
+  input {
+    flex: 1;
+    font-size: 1.8rem;
+    color: $gray;
+    font-style: normal;
+    font-weight: $font-weight-regular;
+    font-family: $roboto;
+    line-height: 150%;
+  }
+
+  button {
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+  }
+
+}
