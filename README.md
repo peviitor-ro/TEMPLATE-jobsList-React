@@ -1,0 +1,1 @@
+Acesta este doar un prototip static fara functionalitate, am folosit React si Material UI incorporand Atomic design. Nu sunt profesionist deci nu este pixel perfect dupa figma. Astept feedback si confirmare daca sa continui sau nu. Multumesc 

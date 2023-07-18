@@ -1,0 +1,59 @@
+@import "../../../scss/variables";
+
+.details-card {
+  .details-title {
+    color: $accent;
+    font-family: $roboto;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-block-end: 1rem;
+  }
+
+  .program,
+  .city {
+    display: inline-flex;
+    padding: 1rem;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 6.25rem;
+    border: 1px solid #000;
+    margin-inline-end: 1rem;
+  }
+
+  .button-row {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 2.8rem;
+
+    .apply {
+      padding: 1.2rem;
+      width: 100%;
+      border-radius: 0.8rem;
+      border: 0;
+      background: $accent;
+      color: $white;
+      font-family: $roboto;
+      font-size: 1.8rem;
+      font-style: normal;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .details {
+      padding: 1.2rem;
+      width: 100%;
+      border-radius: 0.8rem;
+      border: 1px solid $primary;
+      color: $primary;
+      font-family: $roboto;
+      font-size: 1.8rem;
+      font-style: normal;
+      font-weight: 500;
+      cursor: pointer;
+    }
+  }
+}

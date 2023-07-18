@@ -9,8 +9,8 @@ const InputSearch = () => {
       <SvgIcon className="search-icon">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="25"
+          width="40"
+          height="41"
           viewBox="0 0 24 25"
           stroke="#000000"
           fill="none">

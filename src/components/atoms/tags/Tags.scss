@@ -2,12 +2,9 @@
 
 .options {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  
-  .tag-icon {
-    margin-inline-start: 1rem;
-  }
+  gap: 1rem;
 
   p {
     color: $secondary;
@@ -16,6 +13,5 @@
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
-    margin-inline-start: .5rem;
   }
 }
